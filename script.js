@@ -105,7 +105,7 @@ async function generateCaption(){
     };
 
     const response=await fetch(
-    "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AQ.Ab8RN6LKNlwoEd-U1Q8h5Quu4BisCQijAjEpoW6XwmMUfUZ-7A",
+    "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AQ.Ab8RN6LTnFbb0k_4Cyf9lsLjV0jidqM_KCfS879d62LKI5Wv7g",
 
     {
 

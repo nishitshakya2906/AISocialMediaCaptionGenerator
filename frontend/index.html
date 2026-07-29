@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Caption Generator</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="technology.png">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>📷 AI Caption Generator</h1>
+
+    <p class="subtitle">
+        Upload one or more photos and let AI create the perfect social media caption.
+    </p>
+
+    <input type="file"
+           id="imageInput"
+           multiple
+           accept="image/*">
+
+    <div id="preview"></div>
+
+    <textarea
+        id="prompt"
+        placeholder="Describe the vibe you want...
+Example:
+• Make it funny
+• Romantic caption
+• Luxury aesthetic
+• Travel influencer style
+• Keep it short"></textarea>
+
+    <button id="generateBtn">
+        ✨ Generate Caption
+    </button>
+
+    <textarea
+        id="caption"
+        placeholder="Your AI generated caption will appear here..."
+        readonly></textarea>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
